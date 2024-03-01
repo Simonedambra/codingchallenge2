@@ -1,0 +1,93 @@
+
+/*INIZIO BACKGROUND SFONDO E TITOLO: PARTE INIZIALE*/
+
+#background {
+    background-image: url(background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#immagine1 {
+    background-image: url(logo.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 110px;
+    width: 240px;
+    margin: auto;
+    margin-top: 2px;
+           
+}
+#titolo{
+    height: 200px;
+    width: 500px;
+    margin: auto;
+}
+
+#ombra {
+        height: 700px;
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.482);
+        border-radius: 10px;
+        margin: auto;
+}
+#titolo-principale {
+
+        color: rgb(46, 255, 46);
+        font-family: Arial, Helvetica, sans-serif;
+        height: 70px;
+        width: 500px;
+        border: 4px;
+    }
+/*FINE BACKGROUND SFONDO E TITOLO: PARTE INIZIALE */   
+
+/*INIZIO ACQUISIZIONE DATI:PARTE CENTRALE*/
+
+#barra-selection {
+    margin: auto;
+    height: 55px;
+    width: 820px;
+   background-color: rgb(46, 255, 46);
+   margin-top: 4px;
+}
+#pulsanti{
+    margin: auto;
+    text-align: center;
+    border: 3px;
+}
+
+#schema-principale {
+    height: 300px;
+    width: 820px;
+    color: white;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titoli {
+    color: white;
+    font-size: 190%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*FINE ACQUISIZIONE DATI:PARTE CENTRALE*/
+
+/*PERCENTUALI DI:CARICA MONOPATTINI*/
+#percentuale-carica1 {
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgb(243, 190, 91);
+}
+#percentuale-carica2 {
+    height: 30px;
+    width: 700px;
+    border-radius: 5px;
+    background-color: rgb(45, 156, 45);
+}
+
+#percentuale-carica3 {   
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(248, 94, 94);
+}
+/*FINE PERCENTUALI DI:CARICA MONOPATTINI*/
